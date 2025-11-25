@@ -14,7 +14,7 @@ To create a standalone `.exe` file, follow these steps:
 2.  **Build the Executable**:
     Run the following command in your terminal:
     ```bash
-    pyinstaller --onefile remaining_time.py
+    pyinstaller --onefile main.py
     ```
 
 3.  **Locate the File**:
