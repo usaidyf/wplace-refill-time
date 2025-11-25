@@ -1,6 +1,6 @@
 # Remaining Time
 
-Simple script to calculate remaining time of Wplace paint charges refill.
+A simple partially vibe-coded script to calculate remaining time of Wplace paint charges refill.
 
 ## Create Standalone Executable (.exe)
 
