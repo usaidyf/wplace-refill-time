@@ -19,3 +19,16 @@ To create a standalone `.exe` file, follow these steps:
 
 3.  **Locate the File**:
     The generated `.exe` file will be in the `dist` folder.
+
+## Create a script to copy it to desired location
+
+```
+#!/bin/bash
+source venv/Scripts/activate # Virtual environment should already exist
+py -m pip install pyinstaller
+
+pyinstaller --onefile main.py
+
+rm -f "<path_to/desired_location/including/an_optional_custom_name>.py"
+cp dist/main.exe "<path_to/desired_location/including/an_optional_custom_name>.py"
+```
